@@ -1,4 +1,6 @@
-# 🎓 Proyectos de Análisis de Datos & SQL
+# 🎓 Portafolio de Análisis de Datos & Arquitectura SQL
+
+🐍 **Python** | 🗄️ **SQL Server** | 📊 **Pandas** | 🧪 **Machine Learning**
 
 Este repositorio contiene una serie de ejercicios de análisis de datos que realicé durante mi tiempo en la universidad. Los ejercicios incluyen técnicas de limpieza de datos, visualización de datos y modelado estadístico. 
 
@@ -9,32 +11,32 @@ Este repositorio contiene una serie de ejercicios de análisis de datos que real
 ## 📂 Contenido del Repositorio
 
 ### 🐍 Python & Machine Learning
-Ejercicios prácticos desarrollados principalmente en **Google Colab**, utilizando datasets clásicos y técnicas de aprendizaje automático:
+Ejercicios desarrollados principalmente en **Google Colab**, enfocados en el flujo real de un Data Scientist:
 *   **Limpieza de Datos:** Procesamiento de nulos y normalización con `Pandas`.
-*   **Modelado:** Clasificación con algoritmos como KNN, Árboles de Decisión y Regresión Logística.
-*   **Codificación:** Uso de `LabelEncoder` para transformar variables categóricas.
+*   **Modelado:** Clasificación con algoritmos como **KNN**, **Árboles de Decisión** y **Regresión Logística**.
+*   **Feature Engineering:** Uso de `LabelEncoder` para la transformación de datos.
 
-### 🗄️ Bases de Datos
-Consultas y diseño de bases de datos aplicados a casos académicos.
-*   Implementación de lógica relacional.
-*   Extracción de datos mediante queries optimizadas.
+### 🗄️ Bases de Datos (Modelado Relacional)
+Diseño de arquitecturas de datos complejas (como el sistema de **Cajas Navideñas**):
+*   **Lógica Relacional:** Creación de tablas con integridad referencial (`Primary Keys` y `Foreign Keys`).
+*   **Scripts Robustos:** Implementación de lógica de limpieza y creación (`IF EXISTS`, `DROP CONSTRAINT`) para asegurar ejecuciones sin errores.
 
 ---
 
 ## 📊 Origen de los Datos
-Las bases de datos utilizadas en estos ejercicios fueron obtenidas principalmente de **[Kaggle](https://www.kaggle.com)**, la comunidad de ciencia de datos más grande del mundo, asegurando datos reales para problemas complejos.
+Los datasets utilizados provienen principalmente de **[Kaggle](https://www.kaggle.com)**, permitiendo trabajar con datos reales y desafíos de negocio actuales en este 2026.
 
 ---
 
 ## 💡 Notas de Aprendizaje
 
 *   **Enfoque:** Cada ejercicio busca resolver un problema distinto y aplicar lógica de análisis real.
-*   **Pista de Oro (Manejo de Variables Categóricas):**  
-    Para que los modelos de clasificación funcionen, utilicé **Label Encoding**. Esta técnica convierte categorías de texto en valores numéricos.
-    *   **Antes:** `Iris-setosa`, `Iris-versicolor`
-    *   **Después:** `0`, `1`
-    *   **Por qué:** Los modelos matemáticos necesitan números para calcular distancias y probabilidades. ¡Sin esto, el algoritmo no puede procesar los datos!
+*   **Pista de Oro (Variables Categóricas):** El `LabelEncoder` es clave para que los modelos entiendan tus categorías como números.
+*   **Pista de Oro (Orden en SQL):** Primero elimina las *Constraints* y luego las tablas para evitar errores de integridad.
 
+*   **🌱 Pista de Resiliencia (¡No te rindas!):**  
+    A veces el código no corre, el `KeyError` te persigue o el modelo tiene un *accuracy* muy bajo. **No te frustres.** La programación y el análisis de datos no se tratan de que todo salga bien a la primera, sino de tener la paciencia para encontrar el error. Cada "bug" que resuelves hoy es una habilidad que dominas para siempre. ¡Sigue intentándolo, que cada línea de código cuenta! 💪✨
 
 ---
-*Uso educativo: Si eres estudiante, utiliza estos ejemplos como referencia para construir tu propia lógica.* 🚀
+> [!NOTE]
+> **Uso educativo:** Si eres estudiante, utiliza estos ejemplos como referencia para construir tu propia lógica. ¡El código de honor es la clave para aprender de verdad! 🚀
