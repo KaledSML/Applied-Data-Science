@@ -14,10 +14,10 @@
 ### 🧪 Ciencia de Datos y Machine Learning (Python)
 *   **[☀️ Predicción de Radiación Solar](./solar-prediction)**: Modelo de regresión con **93.6% de precisión** utilizando Random Forest para optimizar la eficiencia energética.
 *   **[💧 Análisis de Potabilidad del Agua](./agua-quality)**: Clasificación multivariante mediante ensambles para predecir la seguridad hídrica con un **89% de acierto**.
-*   **[🌸 Clasificación Botánica (Iris)](./iris)**: Proyecto inicial de clasificación taxonómica y preprocesamiento de etiquetas mediante `LabelEncoder`.
+*   **[🌸 Clasificación Botánica (Iris)](./clasificacion-iris)**: Proyecto inicial de clasificación taxonómica y preprocesamiento de etiquetas mediante `LabelEncoder`.
 
 ### 🏗️ Arquitectura de Datos (SQL)
-*   **[📦 Gestión Logística "Cajas Navideñas"](./Cajas%20Navideñas%20(SQL))**: Diseño completo de base de datos relacional (CDM/PDM) e implementación en **T-SQL** con lógica de integridad referencial.
+*   **[📦 Gestión Logística "Cajas Navideñas"](./gestion-logistica-sql)**: Diseño completo de base de datos relacional (CDM/PDM) e implementación en **T-SQL** con lógica de integridad referencial.
 
 ---
 
