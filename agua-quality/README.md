@@ -19,4 +19,4 @@ Proyecto académico de análisis de datos y Machine Learning para explorar las c
 Los modelos con mayor accuracy en la ejecución original fueron Random Forest y Bagging Classifier, ambos con un **89 %**.
 
 ## 📝 Nota
-Este repositorio conserva el código y los resultados originales de una tarea académica, incluyendo sus limitaciones metodológicas, como parte de mi proceso de aprendizaje.
+Este repositorio conserva el código y los resultados de una tarea académica, incluyendo sus limitaciones metodológicas, como parte de mi proceso de aprendizaje.
