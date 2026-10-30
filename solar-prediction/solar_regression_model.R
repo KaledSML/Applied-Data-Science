@@ -13,7 +13,7 @@ library(reshape2)  # Para la matriz de correlación
 dataset <- read_excel("SolarPrediction.xlsx")
 
 # --- 3. VISUALIZACIÓN DE BARRAS (EDA) ---
-# Replicando tus gráficos de colores por intensidad
+# Replicando los gráficos de colores por intensidad
 dataset %>%
   group_by(MonthOfYear) %>%
   summarise(Mean_Radiation = mean(Radiation)) %>%
@@ -36,7 +36,7 @@ melt(cor_data) %>%
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 # --- 5. ENTRENAMIENTO (TOP 3 VARIABLES) ---
-# Usamos las ganadoras de tu Python: Temp, DayOfYear y TimeOfDay(s)
+# Usamos las variables: Temp, DayOfYear y TimeOfDay(s)
 set.seed(0)
 solar_split <- initial_split(dataset, prop = 0.8)
 train_data <- training(solar_split)
