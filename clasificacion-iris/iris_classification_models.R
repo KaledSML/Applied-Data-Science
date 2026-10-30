@@ -8,7 +8,7 @@ library(tidymodels) # Para el Machine Learning
 library(readxl)     # Para leer el .xlsx
 
 # --- 2. CARGA Y EXPLORACIÓN ---
-# Nota: Usamos el nombre de tu archivo 'iris2.xlsx'
+# Nota: Usamos el nombre del archivo 'iris2.xlsx'
 df <- read_excel("iris2.xlsx")
 
 df %>% glimpse()   # Como el df.info()
